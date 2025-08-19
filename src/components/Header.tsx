@@ -33,7 +33,7 @@ const Header = ({ currentPage = 'home', onNavigate }: HeaderProps) => {
               <button 
                 onClick={() => handleNavigation('home')}
               >
-                <img src="img/logo-img.png" className="h-[35px] w-auto" />
+                <img src="/public/logo-img.png" className="h-[35px] w-auto" />
               </button>
               <button 
                 onClick={() => handleNavigation('home')}

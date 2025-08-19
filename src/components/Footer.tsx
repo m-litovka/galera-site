@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Logo and Company Info */}
           <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0">
             <div className="flex items-center space-x-2 sm:mr-8">
-              <img src="img/logo-img.png" className="h-[35px] w-auto" />
+              <img src="/public/logo-img.png" className="h-[35px] w-auto" />
               <span className="font-semibold">Galera</span>
             </div>
             
