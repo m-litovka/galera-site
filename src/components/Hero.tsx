@@ -38,7 +38,7 @@ const Hero = () => {
           {/* Right Illustration */}
           <div className="relative order-first lg:order-last">
             <div className="bg-white rounded-2xl p-8 shadow-xl">
-              <img src="/public/hero-img.png"></img>
+              <img src="/hero-img.png"></img>
             </div>
           </div>
         </div>
