@@ -15,7 +15,7 @@ const WhatWeDo = () => {
           <div className="text-center">
             <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
               <div className="bg-neon-cyan-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Zap className="w-8 h-8 text-neon-cyan-500" />
+                <img src="/mobile-icon.png" className="h-[45px] w-auto" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">MOBILE</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
@@ -29,7 +29,7 @@ const WhatWeDo = () => {
           <div className="text-center">
             <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
               <div className="bg-neon-cyan-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Target className="w-8 h-8 text-neon-cyan-500" />
+                <img src="/web-icon.png" className="h-[45px] w-auto" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">WEB</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
@@ -42,7 +42,7 @@ const WhatWeDo = () => {
           <div className="text-center">
             <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
               <div className="bg-neon-cyan-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Search className="w-8 h-8 text-neon-cyan-500" />
+                <img src="/other-solutions-icon.png" className="h-[45px] w-auto" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">OTHER SOLUTIONS</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
