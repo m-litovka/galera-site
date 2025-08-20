@@ -33,9 +33,8 @@ const WhatWeDo = () => {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">WEB</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Modern web applications and websites built with the latest technologies. 
-                Responsive, fast, and scalable solutions that work perfectly across all devices 
-                and browsers.
+                We build modern web applications using React, TypeScript, Node.js, Next.js, and cloud-native technologies. Our solutions are responsive, fast, and scalable, designed to perform flawlessly across all devices and browsers.
+                From financial platforms and SaaS dashboards to e-commerce stores, social & dating apps, booking systems, and AI-powered tools, we tailor every project to your business goals — ensuring maximum impact at the right cost.
               </p>
             </div>
           </div>

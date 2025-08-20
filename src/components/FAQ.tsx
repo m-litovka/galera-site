@@ -56,6 +56,10 @@ const FAQ = () => {
               )}
             </div>
           ))}
+          <br></br>
+        <p className="text-lg text-gray-600">
+            <center>Galera IT is a mobile and web software development team, based in Limassol, Cyprus and Kyiv, Ukraine.</center>
+          </p>
         </div>
       </div>
     </section>

@@ -10,10 +10,10 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight text-center md:text-left">
-                <span className="text-neon-cyan-500">GALERA</span> - YOUR SOLUTION IN MOBILE AND WEB DEVELOPMENT
+                <span className="text-neon-cyan-500">GALERA IT</span> - YOUR SOLUTION IN MOBILE AND WEB DEVELOPMENT
               </h1>
               <p className="text-base md:text-lg text-gray-600 max-w-lg">
-                At Galera, we combine technical expertise with a client-first approach. We create high-quality apps that are scalable, cost-effective, and tailored to your unique requirements — so you get the results you need without overspending.
+                At Galera IT, we combine technical expertise with a client-first approach. We create high-quality apps that are scalable, cost-effective, and tailored to your unique requirements — so you get the results you need without overspending.
               </p>
             </div>
             
@@ -34,7 +34,7 @@ const Hero = () => {
           {/* Right Illustration */}
           <div className="relative order-first lg:order-last">
             <div className="bg-white rounded-2xl p-8 shadow-xl">
-              <img src="/hero-img.png"></img>
+              <img src="/hero-img-new.png"></img>
             </div>
           </div>
         </div>

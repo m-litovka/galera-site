@@ -87,7 +87,7 @@ const ContactSection = () => {
                   <Mail className="w-6 h-6 text-gray-600 mr-4" />
                   <div>
                     <div className="font-medium text-gray-900">Send an email</div>
-                    <div className="text-neon-cyan-500"><a href="mailto:info.galera@gmail.com">info.galera@gmail.com</a></div>
+                    <div className="text-neon-cyan-500"><a href="mailto:info.galera@gmail.com">info.galerait@gmail.com</a></div>
                   </div>
                 </div>
                 

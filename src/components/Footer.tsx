@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0">
             <div className="flex items-center space-x-2 sm:mr-8">
               <img src="/logo-img.png" className="h-[35px] w-auto" />
-              <span className="font-semibold">Galera</span>
+              <span className="font-semibold">Galera IT</span>
             </div>
             
             <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6 text-sm">
@@ -40,7 +40,7 @@ const Footer = () => {
             <a href="#" className="hover:text-neon-cyan-400 transition-colors">X</a>
             <a href="#" className="hover:text-neon-cyan-400 transition-colors">YouTube</a>
             <a href="#" className="hover:text-neon-cyan-400 transition-colors">Clutch</a>*/}
-            <a href="#" className="hover:text-neon-cyan-400 transition-colors">© 2025 Galera. All Rights Reserved</a>
+            <a href="#" className="hover:text-neon-cyan-400 transition-colors">© 2025 Galera IT. All Rights Reserved</a>
           </div>
         </div>
       </div>

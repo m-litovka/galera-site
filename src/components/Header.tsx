@@ -39,7 +39,7 @@ const Header = ({ currentPage = 'home', onNavigate }: HeaderProps) => {
                 onClick={() => handleNavigation('home')}
                 className="font-semibold text-gray-900 hover:text-neon-cyan-500 transition-colors"
               >
-                GALERA
+                GALERA IT
               </button>
             </div>
           </div>
