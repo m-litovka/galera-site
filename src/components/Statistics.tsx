@@ -19,9 +19,9 @@ const WhatWeDo = () => {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">MOBILE</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Native and cross-platform mobile applications for iOS and Android. 
-                From concept to App Store deployment, we create engaging mobile experiences 
-                that users love.
+                Native and cross-platform mobile apps for iOS and Android.
+                We build with Swift, Kotlin, Flutter, and React Native, covering everything from concept to App Store / Google Play deployment. 
+                Our apps deliver smooth performance and intuitive experiences users love.
               </p>
             </div>
           </div>
@@ -47,9 +47,8 @@ const WhatWeDo = () => {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">OTHER SOLUTIONS</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Custom software solutions tailored to your specific needs. 
-                API integrations, database design, cloud solutions, and more. 
-                Contact us to discuss your unique requirements.
+                Custom software solutions tailored to your business.
+                From API integrations (REST, GraphQL) to database design (PostgreSQL, MongoDB, MySQL) and cloud deployments (AWS, Azure, Vercel, Netlify) — we help you connect, scale, and innovate with confidence.
               </p>
             </div>
           </div>

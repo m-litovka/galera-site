@@ -15,9 +15,7 @@ const Hero = () => {
                 <span className="md:hidden"> </span>DEVELOPMENT
               </h1>
               <p className="text-base md:text-lg text-gray-600 max-w-lg">
-                We provide comprehensive IT solutions for mobile and web development. 
-                Our team delivers high-quality applications tailored to your business needs, 
-                from concept to deployment and beyond.
+                At Galera, we combine technical expertise with a client-first approach. We create high-quality apps that are scalable, cost-effective, and tailored to your unique requirements — so you get the results you need without overspending.
               </p>
             </div>
             

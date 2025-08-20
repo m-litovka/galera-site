@@ -72,7 +72,7 @@ const ContactSection = () => {
             CONTACT US
           </h2>
           <p className="text-lg text-gray-600">
-            Ready to start your project? Get in touch with our team.
+            How can we help? Get in touch with our team, and let's talk specifics.
           </p>
         </div>
 
