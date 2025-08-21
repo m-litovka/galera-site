@@ -87,7 +87,7 @@ const ContactSection = () => {
                   <Mail className="w-6 h-6 text-gray-600 mr-4" />
                   <div>
                     <div className="font-medium text-gray-900">Send an email</div>
-                    <div className="text-neon-cyan-500"><a href="mailto:info.galera@gmail.com">info.galerait@gmail.com</a></div>
+                    <div className="text-neon-cyan-500"><a href="mailto:info@galerait.com">info@galerait.com</a></div>
                   </div>
                 </div>
                 
@@ -122,7 +122,7 @@ const ContactSection = () => {
               name="contact" 
               method="POST" 
               data-netlify="true" 
-              action="mailto:michael.litovka@gmail.com"
+              action="mailto:info@galerait.com"
               data-netlify-honeypot="bot-field"
               onSubmit={handleSubmit} 
               className="space-y-6"
