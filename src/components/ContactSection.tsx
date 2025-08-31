@@ -18,7 +18,7 @@ const ContactSection = () => {
     }));
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+/*  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
 
@@ -38,7 +38,33 @@ const ContactSection = () => {
     } finally {
       setIsSubmitting(false);
     }
-  };
+  }; */
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+
+  const form = e.currentTarget;                  
+  const data = new FormData(form);
+
+  data.append("form-name", form.getAttribute("name") || "contact");
+
+  try {
+    await fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(
+        Array.from(data.entries()) as [string, string][]   
+      ).toString(),
+    });
+
+    alert("Message sent! 🎉");
+    form.reset();
+  } catch (error) {
+    alert("Oops! Something went wrong.");
+    console.error(error);
+  }
+};
+
 
   if (isSubmitted) {
     return (
@@ -122,7 +148,7 @@ const ContactSection = () => {
               name="contact" 
               method="POST" 
               data-netlify="true" 
-              action="mailto:info@galerait.com"
+              /* action="mailto:info@galerait.com" */
               data-netlify-honeypot="bot-field"
               onSubmit={handleSubmit} 
               className="space-y-6"
